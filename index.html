@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Deadline Saver</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🤖 AI Deadline Saver</h1>
+
+    <p class="subtitle">
+        Manage your tasks smarter with AI.
+    </p>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2 id="totalTasks">0</h2>
+            <p>Total Tasks</p>
+        </div>
+
+        <div class="card">
+            <h2 id="completedTasks">0</h2>
+            <p>Completed</p>
+        </div>
+
+        <div class="card">
+            <h2 id="pendingTasks">0</h2>
+            <p>Pending</p>
+        </div>
+
+    </div>
+
+    <div class="task-form">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter Task">
+
+        <input
+    type="date"
+    id="dateInput">
+
+<select id="categoryInput">
+
+    <option value="Study">📚 Study</option>
+
+    <option value="Work">💼 Work</option>
+
+    <option value="Personal">🏠 Personal</option>
+
+</select>
+<select id="priorityInput">
+
+    <option value="High">🔴 High Priority</option>
+
+    <option value="Medium">🟡 Medium Priority</option>
+
+    <option value="Low">🟢 Low Priority</option>
+
+</select>
+
+<button onclick="addTask()">
+    ➕ Add Task
+</button>
+
+    </div>
+
+    <div class="ai-section">
+
+    <h2>🤖 AI Assistant</h2>
+
+    <button onclick="analyzeTasks()">
+        ✨ Analyze My Tasks
+    </button>
+
+    <div id="aiResponse">
+        AI suggestions will appear here...
+    </div>
+
+</div>
+
+    <h2>📋 My Tasks</h2>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>

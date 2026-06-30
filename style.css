@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f7fc;
+    margin:0;
+    padding:30px;
+}
+
+.container{
+    width:80%;
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#2563eb;
+}
+
+.dashboard{
+    display:flex;
+    justify-content:space-around;
+    margin:25px 0;
+}
+
+.card{
+    background:#2563eb;
+    color:white;
+    padding:20px;
+    border-radius:12px;
+    width:180px;
+    text-align:center;
+    font-weight:bold;
+}
+
+input{
+    width:40%;
+    padding:12px;
+    margin:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+select{
+    width:40%;
+    padding:12px;
+    margin:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:12px 18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:white;
+    margin:15px 0;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+li button{
+    margin-left:10px;
+}
+
+.completed{
+    background:#d1fae5;
+}
+.status{
+    display:inline-block;
+    margin-top:8px;
+    font-weight:bold;
+}
+
+.pending{
+    color:#eab308;
+}
+
+.completed-status{
+    color:#16a34a;
+}
+.ai-section{
+    margin-top:30px;
+    padding:20px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+#aiResponse{
+    margin-top:20px;
+    padding:15px;
+    background:#eef4ff;
+    border-radius:10px;
+    min-height:80px;
+    white-space:pre-wrap;
+}
+.ai-section{
+    margin-top:30px;
+    padding:20px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ai-section h2{
+    color:#2563eb;
+}
+
+#aiResponse{
+    margin-top:20px;
+    padding:15px;
+    background:#eef4ff;
+    border-radius:10px;
+    min-height:80px;
+    border-left:5px solid #2563eb;
+}
